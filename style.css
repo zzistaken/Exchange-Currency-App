@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #121214;
+}
+input, select {
+    height: 40px;
+    margin: 1rem 0;
+    padding-left: 0.5rem;
+    background-color: #3f3f3f;
+    color: #ffffff;
+    outline: none;
+    border: 1px solid rgba(128, 128, 128, 0.25);
+    border-radius: 0.5rem;
+}
+#container {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+#container > h2 {
+    color: #ffffff;
+}
+#container > h2 > i {
+    color: #0cf133;
+}
+#container > h2 > span {
+    color: rgb(255, 208, 0);
+}
+#currency-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    padding: 1rem;
+    background-color: #252527;
+    border-radius: 0.5rem;
+    border: 1px solid rgba(128, 128, 128, 0.25);
+}
+.resultArea {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    padding: 1rem;
+    background-color: #252527;
+    color: #ffffff;
+    border: 1px solid rgba(128, 128, 128, 0.25);
+    border-radius: 0.5rem;
+}
+#outputResult {
+    border: 1px solid rgba(128, 128, 128, 0.25);
+    border-radius: 0.5rem;
+}

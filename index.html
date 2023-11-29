@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+    <title>Exchange Currency APP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <main>
+        <div id="container">
+            <h2><i class="fa-solid fa-rotate fa-sm"></i> Exchange API - <span>Currency App</span></h2>
+            <form id="currency-form">
+                <input type="number" name="amount" id="amount" placeholder="Amount">
+                <select id="firstCurrency">
+                    <option selected>USD</option>
+                    <option>EUR</option>
+                    <option>JPY</option>
+                    <option>BGN</option>
+                    <option>CZK</option>
+                    <option>DKK</option>
+                    <option>GBP</option>
+                    <option>HUF</option>
+                    <option>PLN</option>
+                    <option>RON</option>
+                    <option>SEK</option>
+                    <option>CHF</option>
+                    <option>RUB</option>
+                    <option>TRY</option>
+                    <option>AUD</option>
+                    <option>BRL</option>
+                    <option>CAD</option>
+                    <option>CNY</option>
+                </select>
+                <select id="secondCurrency">
+                    <option>USD</option>
+                    <option>EUR</option>
+                    <option selected>TRY</option>
+                    <option>JPY</option>
+                    <option>BGN</option>
+                    <option>CZK</option>
+                    <option>DKK</option>
+                    <option>GBP</option>
+                    <option>HUF</option>
+                    <option>PLN</option>
+                    <option>RON</option>
+                    <option>SEK</option>
+                    <option>CHF</option>
+                    <option>RUB</option>
+                    <option>AUD</option>
+                    <option>BRL</option>
+                    <option>CAD</option>
+                    <option>CNY</option>
+                </select>
+            </form>
+            <div class="resultArea">
+                <div class="outputArea">
+                    <span id="outputFirst">USD</span>
+                    <span><i class="fa-solid fa-right-left fa-sm"></i></span>
+                    <span id="outputSecond">TRY</span>
+                </div>
+                <input type="text" name="outputResult" id="outputResult" placeholder="Result" readonly>
+            </div>
+        </div>
+    </main>
+
+    <script src="ui.js"></script>
+    <script src="currency.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

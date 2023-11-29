@@ -1,0 +1,1 @@
+![](exchange_currency_app_review.png)
